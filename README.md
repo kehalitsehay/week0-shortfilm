@@ -9,7 +9,7 @@ One file, `storyboard.json`, is the contract between every stage. Change one sho
 ## Run it (one command)
 
 ```bash
-git clone <this repo> && cd heritage-short
+git clone https://github.com/kehalitsehay/week0-shortfilm.git repo.
 python3 -m venv .venv && . .venv/bin/activate
 make setup                    # pip install -r requirements.txt  (also needs ffmpeg on PATH)
 cp .env.example .env          # fill in GEMINI_API_KEY, CF_ACCOUNT_ID, CF_API_TOKEN
