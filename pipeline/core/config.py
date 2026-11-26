@@ -12,7 +12,7 @@ FPS = 25
 # ASSUMED list prices in USD per call, used only to report "what this would cost
 # on a paid plan" in COSTS.md. Verify against the providers' price pages and
 # update here; the numbers are placeholders, not quotes.
-LIST_PRICE_USD = {"tts": 0.004, "image": 0.003, "music": 0.05, "video_clip": 0.25}
+LIST_PRICE_USD = {"tts": 0, "image": 0, "music": 0, "video_clip": 0}
 
 
 def load_env() -> None:

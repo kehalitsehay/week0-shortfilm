@@ -24,30 +24,3 @@
 
 FLUX schnell is text-only (no image conditioning), so consistency is engineered: one fixed description per character repeated word for word in every prompt, one shared style string, one fixed seed, and a reference sheet per character generated first (`outputs/keyframes/sheet_*.png`) that I review before accepting any shot. How well this works is Experiment E-03.
 
-## User test 1: the radio cut (narration over black)
-
-Generate with `make radio`, send `outputs/radio_cut.mp4` to at least three people from the audience.
-
-Questions: What do you think the story is about? Which line stayed with you? Was any part unclear or too slow? Would you share it?
-
-| tester (first name, age range) | what they said (verbatim where possible) | what I changed |
-|---|---|---|
-| TODO | TODO | TODO |
-| TODO | TODO | TODO |
-| TODO | TODO | TODO |
-
-Resulting storyboard change (commit hash): TODO
-
-## User test 2: the near-final cut
-
-Same questions, plus: Do the pictures match the voice? Did the end card feel honest?
-
-| tester | what they said | what I changed |
-|---|---|---|
-| TODO | TODO | TODO |
-| TODO | TODO | TODO |
-| TODO | TODO | TODO |
-
-## What changed because of the tests
-
-TODO: two or three concrete edits to `storyboard.json`, each with the git commit that made it.

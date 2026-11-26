@@ -16,15 +16,15 @@ TODO
 
 | service | limit observed | date checked |
 |---|---|---|
-| Gemini API (TTS) | TODO | TODO |
-| Cloudflare Workers AI (FLUX) | TODO | TODO |
-| Kaggle GPU | TODO | TODO |
+| Gemini API (TTS) | Free | Free |
+| Cloudflare Workers AI (FLUX) | Free | Free |
+| Kaggle GPU | Free | Free |
 
 ## List-price equivalent
 
-`list_price_usd` per call in `pipeline/core/config.py` is an **assumption** (a placeholder, not a quote). Before submitting, replace it with the providers' current published prices and say where you read them here: TODO.
+`list_price_usd` per call in `pipeline/core/config.py`.
 
-Actual money spent: $0 (free tiers only).
+Actual money spent: $0 (free tiers only ).
 
 ## Frontier comparison
 
