@@ -1,0 +1,34 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>One Hour</title>
+<style>
+:root{--bg:#0f1722;--ink:#ece6da;--dim:#93a0b3;--ember:#f0a646;--line:#25324a;color-scheme:dark}
+@media (prefers-color-scheme:light){:root{--bg:#f5efe3;--ink:#1b2331;--dim:#5b6678;--ember:#b4620b;--line:#d9cfba;color-scheme:light}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 Georgia,'Iowan Old Style',serif}
+main{max-width:1040px;margin:0 auto;padding:clamp(20px,5vw,64px)}
+h1{font-size:clamp(2.2rem,6vw,4.2rem);line-height:1.08;margin:0 0 .4em;max-width:16ch;font-weight:600}
+h2{font-size:1.4rem;margin:2.4em 0 .6em}
+.lede{color:var(--dim);max-width:52ch;margin:0 0 2em}
+.film{display:grid;grid-template-columns:minmax(0,320px) minmax(0,1fr);gap:clamp(20px,4vw,48px);align-items:start}
+video{width:100%;background:#000;border-radius:6px;display:block}
+.film p{margin:.2em 0 1em;color:var(--dim)}
+.shot{display:grid;grid-template-columns:3.2rem 1fr;gap:0 1rem;padding:1.1em 0;border-top:1px solid var(--line)}
+.shot b{color:var(--ember);font-weight:600}.shot q{display:block;margin-top:.3em;font-style:italic}
+.shot span{color:var(--dim)}
+.stats{display:flex;gap:2.5em;flex-wrap:wrap;margin:0}.stats div{min-width:6em}
+.stats dt{color:var(--dim);font-size:.9rem}.stats dd{margin:0;font-size:1.8rem;color:var(--ember)}
+footer{margin-top:4em;color:var(--dim);font-size:.9rem}
+a{color:var(--ember)}
+@media (max-width:720px){.film{grid-template-columns:1fr}}
+</style></head><body><main>
+<h1>Time is the only currency you cannot earn back.</h1>
+<p class="lede">One Hour: a 76-second short about a young man who keeps promising to start tomorrow.
+Written, voiced and scored with AI, assembled by a small Python pipeline that reads one file, storyboard.json.</p>
+<div class="film"><div><video controls preload="metadata" playsinline src="../outputs/film_9x16.mp4"></video></div>
+<div><p>Vertical cut for phones. The widescreen cut is <a href="../outputs/film_16x9.mp4">here</a>.</p>
+<p>This film uses AI-generated images, voices and music. It was made with the Heritage Short pipeline; every model call is logged.</p>
+<dl class="stats"><div><dt>shots</dt><dd>8</dd></div>
+<div><dt>model calls logged</dt><dd>0</dd></div>
+<div><dt>cache hits</dt><dd>0</dd></div></dl></div></div>
+<h2>Why each shot exists</h2><div class='shot'><b>s01</b><div>Open on the cold blue glow of the phone so the audience recognises their own evening before any story begins.<q>Every night, Daniel scrolled. Other people&#x27;s cars. Other people&#x27;s houses. Other people&#x27;s adventures.</q><span>narrator</span></div></div><div class='shot'><b>s02</b><div>Show exactly what he consumes (luxury he compares himself to) so the viewer feels the pull and the emptiness of it.<q>And every night, he made himself the same promise.</q><span>narrator</span></div></div><div class='shot'><b>s03</b><div>The promise itself: the shared lie of &#x27;tomorrow&#x27; is the emotional hinge of the film and must be heard in his own voice.<q>Tomorrow. Tomorrow, I&#x27;ll start.</q><span>daniel</span></div></div><div class='shot'><b>s04</b><div>Colour turns from cold blue to warm amber: the first sign that a different kind of light, and a different answer, is outside.<q>But tomorrow never came. One evening, he passed an old man roasting corn by the road.</q><span>narrator</span></div></div><div class='shot'><b>s05</b><div>The question the audience wants to ask themselves, asked by Daniel with curiosity rather than judgement.<q>Grandpa, why are you still working so hard at your age?</q><span>daniel</span></div></div><div class='shot'><b>s06</b><div>The old man&#x27;s regret is the film&#x27;s emotional centre; a close face and a slow voice let the line land without decoration.<q>Because when I was young, I kept waiting for the perfect time. Now, I wish I could buy back just one hour of my youth.</q><span>old man</span></div></div><div class='shot'><b>s07</b><div>The central metaphor (time as currency) is delivered over a simple gesture, a gift of corn, so an abstract idea becomes something you can see.<q>Time is the only currency you cannot earn back. You can lose money, and make it again.</q><span>old man</span></div></div><div class='shot'><b>s08</b><div>The payoff: the cold blue returns as warm morning gold and Daniel acts, giving the viewer a concrete picture of &#x27;start now&#x27;.<q>Don&#x27;t wait for the perfect time. Start with the time you have.</q><span>old man</span></div></div>
+<footer>Made with AI. Stages: not run yet.</footer>
+</main></body></html>

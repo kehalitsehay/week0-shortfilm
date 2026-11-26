@@ -1,0 +1,89 @@
+{
+  "title": "One Hour",
+  "language": "en",
+  "audience": "Young Ethiopians in their late teens to thirties who scroll on their phones most evenings; watching vertically on TikTok, Instagram or WhatsApp status.",
+  "intent": "They should recognise their own late-night scrolling in Daniel, and finish the film feeling a gentle push to start one small thing today instead of waiting for the perfect time.",
+  "style": "warm hand-painted cinematic illustration, soft film grain, muted teal shadows with amber highlights, 35mm look, no text or logos",
+  "seed": 7,
+  "characters": {
+    "daniel": "Daniel, an Ethiopian man in his mid-twenties, short curly black hair, light stubble, grey hoodie",
+    "old_man": "an elderly Ethiopian man with deep wrinkles and white stubble, worn brown wool cap, faded olive jacket, kind tired eyes"
+  },
+  "voices": {"narrator": "Charon", "daniel": "Puck", "old_man": "Algenib"},
+  "music": {"prompt": "slow, warm, melancholic cinematic score, soft piano and low strings, gentle build to hope, instrumental"},
+  "end_card": {"text": "Made with AI", "duration": 4},
+  "shots": [
+    {
+      "id": "s01",
+      "reason": "Open on the cold blue glow of the phone so the audience recognises their own evening before any story begins.",
+      "duration": 9,
+      "image_prompt": "night, small bedroom in Addis Ababa, the young man lying on his bed lit only by cold blue phone light, dark room, centered composition",
+      "characters": ["daniel"],
+      "motion": "zoom_in",
+      "narration": {"speaker": "narrator", "text": "Every night, Daniel scrolled. Watches other people's cars, other people's house, Other people's adventures.", "delivery": "in a calm, low, reflective voice"}
+    },
+    {
+      "id": "s02",
+      "reason": "Show exactly what he consumes (luxury he compares himself to) so the viewer feels the pull and the emptiness of it.",
+      "duration": 9,
+      "image_prompt": "close up of a hand holding a glowing phone, the screen shows a blurred luxury car and a mansion, cold blue light on the thumb, dark background, centered composition",
+      "characters": [],
+      "motion": "pan_right",
+      "narration": {"speaker": "narrator", "text": "And every night, he made himself the same promise.", "delivery": "in a calm, low, reflective voice"}
+    },
+    {
+      "id": "s03",
+      "reason": "The promise itself: the shared lie of 'tomorrow' is the emotional hinge of the film and must be heard in his own voice.",
+      "duration": 9,
+      "image_prompt": "the young man in a dark bedroom, face half lit by phone light, tired eyes, a wall clock in the background showing nearly two in the morning, centered composition",
+      "characters": ["daniel"],
+      "motion": "zoom_in",
+      "narration": {"speaker": "daniel", "text": "Tomorrow. Tomorrow, I'll start.", "delivery": "in a tired whisper"}
+    },
+    {
+      "id": "s04",
+      "reason": "Colour turns from cold blue to warm amber: the first sign that a different kind of light, and a different answer, is outside.",
+      "duration": 9,
+      "image_prompt": "dusk on a busy roadside in Addis Ababa, an old man roasting corn on a glowing charcoal brazier, warm amber light and drifting smoke, wide shot, centered composition",
+      "characters": ["old_man"],
+      "motion": "pan_left",
+      "narration": {"speaker": "narrator", "text": "But tomorrow never came. One evening, he passed an old man roasting corn by the road.", "delivery": "in a calm, low, reflective voice"}
+    },
+    {
+      "id": "s05",
+      "reason": "The question the audience wants to ask themselves, asked by Daniel with curiosity rather than judgement.",
+      "duration": 9,
+      "image_prompt": "the young man standing next to the old man's charcoal brazier at dusk, speaking to him, warm amber glow on both faces, medium shot, centered composition",
+      "characters": ["daniel", "old_man"],
+      "motion": "zoom_in",
+      "narration": {"speaker": "daniel", "text": "Grandpa, why are you still working so hard at your age?", "delivery": "gently and curiously"}
+    },
+    {
+      "id": "s06",
+      "reason": "The old man's regret is the film's emotional centre; a close face and a slow voice let the line land without decoration.",
+      "duration": 9,
+      "image_prompt": "close portrait of the old man smiling tiredly, glowing embers reflected in his eyes, warm amber light, shallow depth of field, centered composition",
+      "characters": ["old_man"],
+      "motion": "zoom_in",
+      "narration": {"speaker": "old_man", "text": "Because when I was young, I kept waiting for the perfect time. Now, I wish I could buy back just one hour of my youth.", "delivery": "slowly, warm and weary"}
+    },
+    {
+      "id": "s07",
+      "reason": "The central metaphor (time as currency) is delivered over a simple gesture, a gift of corn, so an abstract idea becomes something you can see.",
+      "duration": 9,
+      "image_prompt": "weathered hands passing a roasted corn cob to the young man, glowing embers and smoke, warm amber light, close shot, centered composition",
+      "characters": ["old_man", "daniel"],
+      "motion": "pan_right",
+      "narration": {"speaker": "old_man", "text": "Time is the only currency you cannot earn back. You can lose money, and make it again.", "delivery": "slowly, warm and weary"}
+    },
+    {
+      "id": "s08",
+      "reason": "The payoff: the cold blue returns as warm morning gold and Daniel acts, giving the viewer a concrete picture of 'start now'.",
+      "duration": 9,
+      "image_prompt": "the young man sitting at a small desk in a bedroom at sunrise, open laptop, golden morning light through the window, hopeful, centered composition",
+      "characters": ["daniel"],
+      "motion": "zoom_out",
+      "narration": {"speaker": "old_man", "text": "Don't wait for the perfect time. Start with the time you have.", "delivery": "slowly, warm and certain"}
+    }
+  ]
+}
